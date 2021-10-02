@@ -30,8 +30,8 @@ namespace ServicesApp.Views
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.txtColor = new System.Windows.Forms.Label();
+            this.txtColor = new System.Windows.Forms.TextBox();
+            this.txtColorlabel = new System.Windows.Forms.Label();
             this.txtModel = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnUpdateS = new System.Windows.Forms.Button();
@@ -50,8 +50,8 @@ namespace ServicesApp.Views
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.txtColor);
+            this.groupBox1.Controls.Add(this.txtColorlabel);
             this.groupBox1.Controls.Add(this.txtModel);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.btnUpdateS);
@@ -70,23 +70,23 @@ namespace ServicesApp.Views
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Yeni servis ekle";
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.textBox1.Location = new System.Drawing.Point(161, 263);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(265, 30);
-            this.textBox1.TabIndex = 19;
-            // 
             // txtColor
             // 
-            this.txtColor.AutoSize = true;
-            this.txtColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtColor.Location = new System.Drawing.Point(9, 267);
+            this.txtColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.txtColor.Location = new System.Drawing.Point(161, 263);
             this.txtColor.Name = "txtColor";
-            this.txtColor.Size = new System.Drawing.Size(119, 25);
-            this.txtColor.TabIndex = 18;
-            this.txtColor.Text = "Servis renki ";
+            this.txtColor.Size = new System.Drawing.Size(265, 30);
+            this.txtColor.TabIndex = 19;
+            // 
+            // txtColorlabel
+            // 
+            this.txtColorlabel.AutoSize = true;
+            this.txtColorlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtColorlabel.Location = new System.Drawing.Point(9, 267);
+            this.txtColorlabel.Name = "txtColorlabel";
+            this.txtColorlabel.Size = new System.Drawing.Size(119, 25);
+            this.txtColorlabel.TabIndex = 18;
+            this.txtColorlabel.Text = "Servis renki ";
             // 
             // txtModel
             // 
@@ -235,8 +235,8 @@ namespace ServicesApp.Views
         private System.Windows.Forms.TextBox txtServisF;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dgwService;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label txtColor;
+        private System.Windows.Forms.TextBox txtColor;
+        private System.Windows.Forms.Label txtColorlabel;
         private System.Windows.Forms.TextBox txtModel;
         private System.Windows.Forms.Label label2;
     }

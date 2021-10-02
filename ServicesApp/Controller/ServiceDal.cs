@@ -36,7 +36,7 @@ namespace ServicesApp.Controller
             }
         }
 
-        public void DeleteDriver(Service service)
+        public void DeleteService(Service service)
         {
             using (MainContext context = new MainContext())
             {
